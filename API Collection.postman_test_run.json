@@ -1,0 +1,679 @@
+{
+	"id": "6ef6df60-c4d4-4985-bb3b-fac46f149957",
+	"name": "API Collection",
+	"timestamp": "2022-11-25T09:46:48.122Z",
+	"collection_id": "24233593-6177710e-d952-407e-941b-30f892190364",
+	"folder_id": 0,
+	"environment_id": "24233593-c16d92b2-5c4d-4a3f-9416-9cba1ce19ce1",
+	"totalPass": 80,
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "2c6f0bc7-8de4-40d5-b28f-4d3b55c0b793",
+			"name": "Get All Todo Entries",
+			"time": 244,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Status code has string Not Found": true,
+				"confirm that the total response is not Found": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code has string Not Found": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the total response is not Found": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				846,
+				244
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Status code has string Not Found": true,
+					"confirm that the total response is not Found": true
+				},
+				{
+					"Status code is 404": true,
+					"Status code has string Not Found": true,
+					"confirm that the total response is not Found": true
+				}
+			]
+		},
+		{
+			"id": "178d2b2f-939b-4a51-90cd-cb1fbb5eadca",
+			"name": "Get All Entries",
+			"time": 283,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code has string OK": true,
+				"Body is correct": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code has string OK": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				353,
+				283
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code has string OK": true,
+					"Body is correct": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code has string OK": true,
+					"Body is correct": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "e568a80b-3a41-4790-a7d9-c025fa55ae15",
+			"name": "Get All Entries invalid",
+			"time": 218,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Status code has string Not Found": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code has string Not Found": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				277,
+				218
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Status code has string Not Found": true
+				},
+				{
+					"Status code is 404": true,
+					"Status code has string Not Found": true
+				}
+			]
+		},
+		{
+			"id": "e0b8bcb0-9e70-4871-9176-807d4c102920",
+			"name": "Get entry per ID",
+			"time": 212,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Status code has string Not Found": true,
+				"confirm that the total response is not Found": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code has string Not Found": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the total response is not Found": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				229,
+				212
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Status code has string Not Found": true,
+					"confirm that the total response is not Found": true
+				},
+				{
+					"Status code is 404": true,
+					"Status code has string Not Found": true,
+					"confirm that the total response is not Found": true
+				}
+			]
+		},
+		{
+			"id": "e9c956d9-a482-41a6-a065-da432c7c37f0",
+			"name": "Get Books Fiction",
+			"time": 314,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code has string OK": true,
+				"Search for a book name called Viscount Who Loved Me": true,
+				"Search for a book name called The Russian": true,
+				"The id number of a fiction book that available with the name The Midnight Library is ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code has string OK": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Search for a book name called Viscount Who Loved Me": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Search for a book name called The Russian": {
+					"pass": 2,
+					"fail": 0
+				},
+				"The id number of a fiction book that available with the name The Midnight Library is ": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				330,
+				314
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code has string OK": true,
+					"Search for a book name called Viscount Who Loved Me": true,
+					"Search for a book name called The Russian": true,
+					"The id number of a fiction book that available with the name The Midnight Library is ": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code has string OK": true,
+					"Search for a book name called Viscount Who Loved Me": true,
+					"Search for a book name called The Russian": true,
+					"The id number of a fiction book that available with the name The Midnight Library is ": true
+				}
+			]
+		},
+		{
+			"id": "a7e84a40-1133-4749-b072-7d602373f773",
+			"name": "Get Books Non-Fiction",
+			"time": 293,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code has string OK": true,
+				"Search for a book name called Just as I Am": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code has string OK": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Search for a book name called Just as I Am": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				310,
+				293
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code has string OK": true,
+					"Search for a book name called Just as I Am": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code has string OK": true,
+					"Search for a book name called Just as I Am": true
+				}
+			]
+		},
+		{
+			"id": "af46d2af-4957-4bb3-82ad-cd38b725a4ce",
+			"name": "Place a book order Valid",
+			"time": 341,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Status code has string Created": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code has string Created": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				510,
+				341
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Status code has string Created": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code has string Created": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "545da513-eca2-412f-ab5b-f581f565d8ee",
+			"name": "Place a book order Invalid",
+			"time": 324,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code has string Unauthorized": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code has string Unauthorized": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				293,
+				324
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code has string Unauthorized": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 401": true,
+					"Status code has string Unauthorized": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "6097b7af-33a7-4f01-afc5-eaac98656fe9",
+			"name": "Get all orders",
+			"time": 372,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				394,
+				372
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body is correct": true
+				}
+			]
+		},
+		{
+			"id": "ed6bc1fa-1e37-4522-9c6d-f81ac649c1f3",
+			"name": "Get all orders Failed",
+			"time": 388,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name has Unauthorized": true,
+				"Body is correct": true,
+				"recieve error message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has Unauthorized": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 3,
+					"fail": 0
+				},
+				"recieve error message": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				300,
+				388
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name has Unauthorized": true,
+					"Body is correct": true,
+					"recieve error message": true
+				},
+				{
+					"Status code is 401": true,
+					"Status code name has Unauthorized": true,
+					"Body is correct": true,
+					"recieve error message": true
+				}
+			]
+		},
+		{
+			"id": "2c1660e5-fe88-4d58-b60c-49ce4cc43559",
+			"name": "Get an order",
+			"time": 406,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code has string OK": true,
+				"Verify an Order": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code has string OK": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Verify an Order": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				336,
+				406
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code has string OK": true,
+					"Verify an Order": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code has string OK": true,
+					"Verify an Order": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "2f117491-811e-49e5-a719-f058a170d132",
+			"name": "Get an order Invalid",
+			"time": 886,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1390,
+				886
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "038c0d2a-8737-4bc7-b510-44129b4bf421",
+			"name": "Delete an order",
+			"time": 823,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 204": false,
+				"Status code name has string No Content": false
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 0,
+					"fail": 2
+				},
+				"Status code name has string No Content": {
+					"pass": 0,
+					"fail": 2
+				}
+			},
+			"times": [
+				831,
+				823
+			],
+			"allTests": [
+				{
+					"Status code is 204": false,
+					"Status code name has string No Content": false
+				},
+				{
+					"Status code is 204": false,
+					"Status code name has string No Content": false
+				}
+			]
+		},
+		{
+			"id": "66060f6d-f599-475d-a681-2092c01d98f2",
+			"name": "Delete an order Copy",
+			"time": 378,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name has string Unauthorized": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string Unauthorized": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				303,
+				378
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name has string Unauthorized": true
+				},
+				{
+					"Status code is 401": true,
+					"Status code name has string Unauthorized": true
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 12184,
+	"collection": {
+		"requests": [
+			{
+				"id": "2c6f0bc7-8de4-40d5-b28f-4d3b55c0b793",
+				"method": "GET"
+			},
+			{
+				"id": "178d2b2f-939b-4a51-90cd-cb1fbb5eadca",
+				"method": "GET"
+			},
+			{
+				"id": "e568a80b-3a41-4790-a7d9-c025fa55ae15",
+				"method": "GET"
+			},
+			{
+				"id": "e0b8bcb0-9e70-4871-9176-807d4c102920",
+				"method": "GET"
+			},
+			{
+				"id": "e9c956d9-a482-41a6-a065-da432c7c37f0",
+				"method": "GET"
+			},
+			{
+				"id": "a7e84a40-1133-4749-b072-7d602373f773",
+				"method": "GET"
+			},
+			{
+				"id": "af46d2af-4957-4bb3-82ad-cd38b725a4ce",
+				"method": "POST"
+			},
+			{
+				"id": "545da513-eca2-412f-ab5b-f581f565d8ee",
+				"method": "POST"
+			},
+			{
+				"id": "6097b7af-33a7-4f01-afc5-eaac98656fe9",
+				"method": "GET"
+			},
+			{
+				"id": "ed6bc1fa-1e37-4522-9c6d-f81ac649c1f3",
+				"method": "GET"
+			},
+			{
+				"id": "2c1660e5-fe88-4d58-b60c-49ce4cc43559",
+				"method": "GET"
+			},
+			{
+				"id": "2f117491-811e-49e5-a719-f058a170d132",
+				"method": "GET"
+			},
+			{
+				"id": "038c0d2a-8737-4bc7-b510-44129b4bf421",
+				"method": "DELETE"
+			},
+			{
+				"id": "66060f6d-f599-475d-a681-2092c01d98f2",
+				"method": "DELETE"
+			}
+		]
+	}
+}
