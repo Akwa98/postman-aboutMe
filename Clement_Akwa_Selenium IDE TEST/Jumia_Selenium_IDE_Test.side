@@ -1,0 +1,159 @@
+{
+  "id": "56459a9e-632b-442f-86d5-dfccf516d9dd",
+  "version": "2.0",
+  "name": "Jumia_Selenium_IDE_Test",
+  "url": "https://www.jumia.com",
+  "tests": [{
+    "id": "3302a313-af1b-48eb-95d9-6cbe63732aee",
+    "name": "Jumia_postive_test_case",
+    "commands": [{
+      "id": "6807b328-9f27-4a9a-be31-a45d00a5f7c0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.jumia.com.ng/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fba037e9-a845-43b0-ac0f-da5316c08f94",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b398cf9f-c612-4070-9e21-9f48763af72b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col16 > .\\_ni",
+      "targets": [
+        ["css=.col16 > .\\_ni", "css:finder"],
+        ["xpath=//img[@alt='Desktop Top Strip (DTS_XMAS_ADS_ADI']", "xpath:img"],
+        ["xpath=//div[@id='jm']/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccf585f3-1b0f-4ae5-83ee-b5e5acd28977",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dpdw:nth-child(1) > .trig > .ic",
+      "targets": [
+        ["css=.dpdw:nth-child(1) > .trig > .ic", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e192fe04-9178-483e-b499-a2b810ab6b35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.-hr-bb > .btn",
+      "targets": [
+        ["css=.-hr-bb > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='dpdw-login-box']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/customer/account/login/?return=%2F')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a0a2f24-6381-4420-a20b-f948f91ea5b5",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mdc-text-field__input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "acousins3v@yahoo.co.jp"
+    }, {
+      "id": "b38416da-bc1b-4dd1-bbd8-b2340faa262a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.access-btn > .mdc-button__touch",
+      "targets": [
+        ["css=.access-btn > .mdc-button__touch", "css:finder"],
+        ["xpath=//button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad0b0002-760b-45f7-acee-62ed965c3a4c",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mdc-text-field__input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='passwordForm']/div[2]/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fdccbd1-f573-40e6-ab61-6736569512ce",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mdc-text-field__input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='passwordForm']/div[2]/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "5mzwOKYb17YX"
+    }, {
+      "id": "f6f75549-084e-4043-b2a9-bfe5f306c59f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#loginButton > .mdc-button__touch",
+      "targets": [
+        ["css=#loginButton > .mdc-button__touch", "css:finder"],
+        ["xpath=//button[@id='loginButton']/span[3]", "xpath:idRelative"],
+        ["xpath=//button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d571bfbe-908a-490c-875c-4c2ebec6204f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dpdw:nth-child(1) > .trig",
+      "targets": [
+        ["css=.dpdw:nth-child(1) > .trig", "css:finder"],
+        ["xpath=//div[@id='jm']/header/section/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Hi, Addy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "382edb2d-3200-4eea-92a9-f3e4845e9a00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_def",
+      "targets": [
+        ["css=.\\_def", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='dpdw-login-box']/div/form/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28bc4afb-72c4-43fe-8de6-26b346fb49f2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5841e8b4-630d-448b-80fb-a621d6176eb4",
+    "name": "Jumia_Test",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3302a313-af1b-48eb-95d9-6cbe63732aee"]
+  }],
+  "urls": ["https://www.jumia.com/"],
+  "plugins": []
+}
